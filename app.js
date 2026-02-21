@@ -1,1 +1,8 @@
-console.log("Node js lab 4 initial setup is running...")
+const fs = require('fs');
+
+console.log("Server is starting...");
+
+fs.readFile('file.txt', 'utf8', function (err, data) {
+    if (err) throw err;
+    console.log(data);
+});
