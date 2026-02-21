@@ -1,0 +1,1 @@
+console.log("Node js lab 4 initial setup is running...")
